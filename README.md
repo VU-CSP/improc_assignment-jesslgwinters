@@ -9,13 +9,13 @@ You can [download FIJI here](https://fiji.sc)
 #### *Task 1:*
 Answer the following questions about the [Phase contrast](image_files/PhaseContrast.tif) and [Differential interference contrast](image_files/DifferentialInterference.tif) images:
 Q1) What is the maximum intensity value in the [Differential interference contrast](image_files/DifferentialInterference.tif) file? 
-A1) Put your answer here.  
+A1) 254
 
 Q2) What are the dimensions of the [Phase contrast](image_files/PhaseContrast.tif) file?  
-A2) Put your answer here in the form of (X, Y, BitDepth).  
+A2) (314, 226, 8-bit)
 
 Q3) Which image has greater dynamic range of pixel intensities? Phase or DiffInt?  
-A3) Put your answer here.  
+A3) DiffInt 
 
 #### *Task 2:*
 Open the file [Fluorescence_composite.tif](image_files/Fluorescence_composite.tif) and convert all the signal in the red channel to the blue channel, export the file as a JPG and upload it to this repository in the [image_files](image_files) directory with the name "Composite.jpg".  
@@ -25,17 +25,18 @@ The file should automatically show below when uploaded correctly and this file i
 
 #### *Task 3:*  
 Segment the nuclei in the [22946173.tif](image_files/22946173.tif) file and Analyze/Analyze Particles with size (pixel^2) 20–500, Circularity 0.5–1, and Show Count Masks as show in the image below. (Check "Display results", "Clear results", "Summarize", and "Exclude on edges".)  
-![](image_files/AnalyzeParticles.png)  
+![](image_files/AnalyzeParticles.png)
 
 The Results output should look like this:  
 ![](image_files/ResultsExample.png)   
 Save the results as "Results.csv" and upload into the same directory where this file is. It will be used in the Python notebook below.  
 
-Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).  
+Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).
+I uploaded it to image_files with the proper name, but it will not show up below.
 ![](image_files/Count_Mask_22946173.tif)  
 
 Q4) How many particles were detected?  
-A4) Put your answer here.  
+A4) 1417 
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
